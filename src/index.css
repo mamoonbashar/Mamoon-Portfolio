@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-color: #000000;
+  min-height: 100vh;
+}
+:root {
+  --FontFamily: "Inter";
+  --TextColor: #FFFFFF;
+  --TextColor2:#C0C0C0;
+  --Flex: flex;
+  --RowFlexDirection: row;
+  --ColFlexDirection: column;
+  --Grid: grid;
+  --ComponentsBackGroundColor: #1B1B1B;
+  --SecondBackGroundColor:#161616;
+  --ComponentsBorder:2px solid #262626;
+  --ButtonHeadingColor:#F35034;
+  --MainHeadingsSize:36px;
+  --SubHeadingsSize:24px;
+  --ContentSize:20px;
+  
+}
+/* p{font-size: var(--ContentSize);
+} */
+/* Frame 95418 */
+
+/* box-sizing: border-box; */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 40px;
+gap: 70px; */
+
+/* width: 594px;
+height: 149px; */
+
+/* background: linear-gradient(249.05deg, rgba(230, 62, 33, 0.2) 18.59%, rgba(51, 19, 14, 0) 53.25%), #1B1B1B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px; */
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+/* Frame 95418 */
+/* 
+box-sizing: border-box; */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 40px;
+gap: 70px;
+
+width: 594px;
+height: 149px;
+
+background: linear-gradient(249.05deg, rgba(230, 62, 33, 0.2) 18.59%, rgba(51, 19, 14, 0) 53.25%), #1B1B1B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px; */
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+
+
+/* Frame 95410 */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+width: 176px;
+height: 29px; */
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+
+
+/* Product design */
+
+/* width: 176px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px; */
+/* identical to box height */
+
+/* color: #C0C0C0; */
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */

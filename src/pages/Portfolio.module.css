@@ -1,0 +1,77 @@
+.MyWork {
+  width: 50%;
+  height: 90px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.MyWork h3 {
+  color: var(--TextColor);
+  font-size: var(--MainHeadingsSize);
+}
+.MyWork p {
+  color: var(--TextColor2);
+  font-size: var(--ContentSize);
+}
+.TilesContainer {
+  width: 50%;
+  height: 50px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.TilesContainer__Tiles {
+  width: 20%;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+.CardsContainer {
+  height: 100%;
+  width: 70%;
+  border: 1px solid;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  padding: 10px;
+  gap: 10px;
+  flex-direction: row;
+}
+.CardsContainer__Card {
+  height: 250px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.Card__ProjectName {
+  height: 130px;
+  width: 100%;
+  border: 1px solid;
+}
+
+.Card__ProjectDescription {
+  height: 120px;
+  width: 100%;
+  border: 1px solid;
+}
+.Card__ProjectNameTile {
+  height: 30px;
+  width: 100%;
+  border: 1px solid;
+}
+.Card__ProjectInformation {
+    height: 70px;
+    width: 100%;
+    border: 1px solid;
+}
+.Card__ViewCaseStudy {
+height: 20px;
+width: 100%;
+border: 1px solid;
+}

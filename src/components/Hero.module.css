@@ -1,0 +1,157 @@
+.cardsContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cardsContainer__LeftCards {
+  height: 900px;
+  width: 47%;
+  display: flex;
+  /* border: 1px solid; */
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+.cardsContainer__RightCards {
+  height: 900px;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+.cardsContainer__Projects {
+  height: 400px;
+  width: 100%;
+  border: var(--ComponentsBorder);
+  background-color: var(--ComponentsBackGroundColor);
+  border-radius: 5px;
+}
+.cardsContainer__Preview {
+  height: 600px;
+  width: 100%;
+  border: var(--ComponentsBorder);
+  background-color: var(--ComponentsBackGroundColor);
+  border-radius: 5px;
+}
+.Preview__HeadingAndLogoContainer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.Preview__HeadingsContainer {
+  width: 50%;
+  height: 70px;
+  gap: 5px;
+}
+.Preview__HeadingsContainer h1 {
+  font-size: var(--SubHeadingsSize);
+  color: var(--TextColor);
+}
+.Preview__HeadingsContainer p {
+  font-size: var(--ContentSize);
+  color: var(--TextColor2);
+}
+.Preview__HeadingAndLogoContainer img {
+  width: 40px;
+  height: 40px;
+}
+.cardsContainer__ProductDesign {
+  border: var(--ComponentsBorder);
+  background: linear-gradient(
+      76.27deg,
+      rgba(230, 62, 33, 0.2) 10.4%,
+      rgba(51, 19, 14, 0) 25.53%
+    ),
+    #1b1b1b;
+  width: 100%;
+  background-color: var(--ComponentsBackGroundColor);
+  height: 90px;
+  border-radius: 5px;
+  color: var(--TextColor2);
+  display: var(--Flex);
+  align-items: center;
+  justify-content: center;
+}
+.cardsContainer__ExpNocode {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border-radius: 5px;
+  color: var(--TextColor2);
+
+}
+.cardsContainer__UserExperiance {
+  border: var(--ComponentsBorder);
+  width: 50%;
+  height: 100px;
+  border-radius: 5px;
+  background-color: var(--ComponentsBackGroundColor);
+  color: var(--TextColor2);
+  display: var(--Flex);
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(76.27deg, rgba(230, 62, 33, 0.2) 10.4%, rgba(51, 19, 14, 0) 25.53%), #1b1b1b;
+  transform:rotate(-180deg)
+  
+}
+.cardsContainer__UserExperiance p{
+  transform:rotate(180deg)
+}
+.cardsContainer__NoCodeDevelop {
+  border: var(--ComponentsBorder);
+  width: 50%;
+  height: 100px;
+  border-radius: 5px;
+  background-color: var(--ComponentsBackGroundColor);
+  color: var(--TextColor2);
+  display: var(--Flex);
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(76.27deg, rgba(230, 62, 33, 0.2) 10.4%, rgba(51, 19, 14, 0) 25.53%), #1b1b1b;
+  transform:rotate(-180deg)
+}
+.cardsContainer__NoCodeDevelop p{
+  transform:rotate(180deg)
+}
+.cardsContainer__AllMusicProduct {
+  border: var(--ComponentsBorder);
+  height: 350px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--ComponentsBackGroundColor);
+  color: var(--TextColor2);
+}
+.cardsContianer__AllMapDesign {
+  border: var(--ComponentsBorder);
+  height: 350px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--ComponentsBackGroundColor);
+  color: var(--TextColor2);
+}
+
+@media (max-width: 700px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardsContainer__LeftCards {
+    width: 100%;
+  }
+  .cardsContainer__RightCards {
+    width: 100%;
+  }
+  
+}

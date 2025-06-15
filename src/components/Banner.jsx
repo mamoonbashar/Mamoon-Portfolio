@@ -16,10 +16,16 @@ const Banner = () => {
           <p>I design digital products with great experience.</p>
         </div>
         <div className={style.Banner__ButtonsContainer}>
-          <button  id={style.Banner__HireMe}>
-            Hire me <span className={style.divider}></span>{" "}
-            <img src={PlusIcon} alt="logo" />
-          </button>
+          <a id={style.Banner__HireMe}
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=mohdmamoon480@gmail.com&su=Hire%20Me&body=Hi%2C%20I%20am%20interested%20in%20working%20with%20you."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          
+              Hire me <span className={style.divider}></span>
+              <img src={PlusIcon} alt="logo" />
+            
+          </a>
           <button id={style.Banner__CopyEmail}>
             Copy Email <span className={style.divider}></span>
             <img src={CopyIcon} alt="logo" />

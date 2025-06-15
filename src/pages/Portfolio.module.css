@@ -1,7 +1,6 @@
 .MyWork {
   width: 50%;
   height: 90px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,22 +18,28 @@
 .TilesContainer {
   width: 50%;
   height: 50px;
-  border: 1px solid;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+
 .TilesContainer__Tiles {
   width: 20%;
   height: 40px;
-  border: 1px solid;
   border-radius: 50px;
+  background-color: var(--ComponentsBackGroundColor);
+  border: var(--ComponentsBorder);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TilesContainer__Tiles .active {
+  background-color: var(--ButtonHeadingColor);
 }
 .CardsContainer {
   height: 100%;
   width: 70%;
-  border: 1px solid;
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -46,32 +51,60 @@
 }
 .CardsContainer__Card {
   height: 250px;
-  border: 1px solid;
   border-radius: 10px;
 }
 .Card__ProjectName {
   height: 130px;
   width: 100%;
-  border: 1px solid;
+  border-top-left-radius: 10px;
+  background-color: var(--ComponentsBackGroundColor);
+  border-top-right-radius: 10px;
+  border-top: var(--ComponentsBorder);
+  border-right: var(--ComponentsBorder);
+  border-left: var(--ComponentsBorder);
 }
 
 .Card__ProjectDescription {
   height: 120px;
   width: 100%;
-  border: 1px solid;
+  background-color: var(--SecondBackGroundColor);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: var(--ComponentsBorder);
+  border-left: var(--ComponentsBorder);
+  border-right: var(--ComponentsBorder);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
 }
 .Card__ProjectNameTile {
   height: 30px;
-  width: 100%;
-  border: 1px solid;
+  width: 100px;
+  border-radius: 50px;
+  background-color: var(--ComponentsBackGroundColor);
 }
 .Card__ProjectInformation {
-    height: 70px;
-    width: 100%;
-    border: 1px solid;
+  height: 70px;
+  width: 100%;
+}
+.Card__ProjectInformation h4 {
+  font-size: 15px;
+  color: var(--TextColor);
+}
+.Card__ProjectInformation p {
+  font-size: 10px;
+  color: var(--TextColor2);
 }
 .Card__ViewCaseStudy {
-height: 20px;
-width: 100%;
-border: 1px solid;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: end;
+}
+.Card__ViewCaseStudy p {
+  font-size: 10px;
+  color: var(--ButtonHeadingColor);
 }

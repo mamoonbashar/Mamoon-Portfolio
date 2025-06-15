@@ -16,12 +16,13 @@
   --ColFlexDirection: column;
   --Grid: grid;
   --ComponentsBackGroundColor: #1B1B1B;
-  --SecondBackGroundColor:#161616;
+  --SecondBackGroundColor:#0d0d0d;
   --ComponentsBorder:2px solid #262626;
   --ButtonHeadingColor:#F35034;
   --MainHeadingsSize:36px;
   --SubHeadingsSize:24px;
   --ContentSize:20px;
+ 
   
 }
 /* p{font-size: var(--ContentSize);
